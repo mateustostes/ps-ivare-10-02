@@ -1,6 +1,7 @@
 function mostrarAlerta(){
 
     var nome = document.getElementById('nome').value;
-    alert(nome);
+    var dataNascimento = document.getElementById('data').value;
+    alert(nome + dataNascimento);
     
 }
